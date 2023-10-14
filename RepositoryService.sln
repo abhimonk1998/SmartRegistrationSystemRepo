@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryService", "RepositoryService\RepositoryService.csproj", "{53A8033F-43A9-4C66-84A9-4A8CCDD872ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryTestApplication", "RepositoryTestApplication\RepositoryTestApplication.csproj", "{C71E0DC6-5065-4C0D-90C4-AF22F41FEFD4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{53A8033F-43A9-4C66-84A9-4A8CCDD872ED} = {53A8033F-43A9-4C66-84A9-4A8CCDD872ED}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53A8033F-43A9-4C66-84A9-4A8CCDD872ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53A8033F-43A9-4C66-84A9-4A8CCDD872ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53A8033F-43A9-4C66-84A9-4A8CCDD872ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53A8033F-43A9-4C66-84A9-4A8CCDD872ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C71E0DC6-5065-4C0D-90C4-AF22F41FEFD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C71E0DC6-5065-4C0D-90C4-AF22F41FEFD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C71E0DC6-5065-4C0D-90C4-AF22F41FEFD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C71E0DC6-5065-4C0D-90C4-AF22F41FEFD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC7D0CBD-1F5B-4B9D-A877-E00B2753031E}
+	EndGlobalSection
+EndGlobal
